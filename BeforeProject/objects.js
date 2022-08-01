@@ -31,3 +31,6 @@ console.log(player.points);
 //데이터 추가
 player.lastName = "lemon"; 
 console.log(player);
+
+//데이터 바꿔서 출력
+console.log(player.name = "windy");

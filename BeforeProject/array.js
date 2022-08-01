@@ -8,6 +8,6 @@ console.log(daysOfWeek);
 console.log(daysOfWeek[5]);
 
 // Add one more day to the array
-daysOfWeek.push("sun")
+daysOfWeek.push("sun")            //arr에 값 추가
 
 console.log(daysOfWeek)

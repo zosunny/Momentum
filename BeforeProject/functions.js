@@ -1,3 +1,5 @@
+//어떤 코드를 캡슐화해서 반복해 사용할 수 있게 함
+
 //1.
 function sayHello(nameOfPerson, age){
   console.log("Hello my name is " + nameOfPerson + " and I'm " + age + " year's old.");
@@ -30,3 +32,9 @@ const player = {
 console.log(player.name);
 player.sayHi("tomato");
 player.sayHi("apple");
+
+
+function minusFive(tomato){   // 첫번째 요소만 입력 받음
+  console.log(tomato - 10)
+}
+minusFive(10, 15, 30)   // 0 출력
