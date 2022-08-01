@@ -18,3 +18,29 @@ console.log(typeof parseInt(age2));    // number 타입으로 변환 함
 
 // 3. 다음과 같은 방법도 가능
 const age3 = parseInt(prompt("How ald are you?"));
+console.log(age)
+
+
+
+
+
+
+// 1.
+// inNaN
+const age4 = parseInt(prompt("How ald are you?"));
+console.log(isNaN(age4));     // number가 아니면 true, number면 false 반환
+
+
+// // 2. condition
+// if(condition){
+//   condition === true
+// }else{
+//   condition === false
+// }
+
+const age5 = parseInt(prompt("How ald are you?"));
+if(isNaN(age5)){            // number가 아니면 true, number면 false 반환
+  console.log("Please write a number");
+}else{
+  console.log("Thank you for writing your age.");
+}
