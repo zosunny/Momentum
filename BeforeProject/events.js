@@ -3,6 +3,21 @@
   //   <h1>CLick me!</h1>
   // </div>
 
+//css에 넣는 코드
+// body {
+//   background-color: beige;
+// }
+
+// h1 {
+//   color: cornflowerblue;
+//   transition: color .5s ease-in-out;
+// }
+
+// .active {             /* 이 class를 어떤 element에 지정해주면 */
+//   color:tomato;     /* 어떤 element든 tomato색을 가지게 됨 */
+// }
+
+
 const h1 = document.querySelector("div.hello:first-child h1");
 
 function handleTitleClick(){
