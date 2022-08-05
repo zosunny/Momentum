@@ -1,3 +1,8 @@
+//html body에 넣는 코드
+  // <div class="hello">
+  //   <h1>CLick me!</h1>
+  // </div>
+
 const h1 = document.querySelector("div.hello:first-child h1");
 
 function handleTitleClick(){

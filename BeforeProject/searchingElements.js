@@ -1,3 +1,11 @@
+//html body에 넣는 코드
+  // <h1 autofocus id="title">Grab me!</h1>
+  // <h1 class="hello">Grab</h1>
+  // <h1 class="hello">Grab</h1>
+  // <h1 class="hello">Grab</h1>
+  // <h1 class="hello">Grab</h1>
+  // <h1 class="hello">Grab</h1>
+
 document.h1 = "Hello From Js"  // JS로 HTML 정보를 갖고 있는 document 객체 이용해 HTML 변경
 
 const h1 = document.getElementById("h1");
