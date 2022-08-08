@@ -5,7 +5,7 @@ const toDoList = document.getElementById("todo-list");
 const toDos = [];
 
 function saveToDos(){
-  localStorage.setItem("todos", JSON.stringify(toDos));
+  localStorage.setItem("todos", JSON.stringify(toDos));   //JSON.stringify는 JS Object나 array나 어떤 JS간에 string으로 만듦
 }
 
 function deleteToDo(e){
