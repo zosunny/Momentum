@@ -4,7 +4,9 @@ const loginButton = loginForm.querySelector("button");    // HTML element 안을
 //const loginInput = document.querySelector("#login-form input");   // 이렇게 한줄로도 작성 가능
 //const loginButton = document.querySelector("#login-form button");
 
-const link = document.querySelector("a");
+//index.html의 <body><form>안에 <!-- <a href="https://nomadcoders.co">Go to course</a> --> 있을 때
+//const link = document.querySelector("a");
+
 const greeting = document.querySelector("#greeting");
 const HIDDEN_CLASSNAME = "hidden";    // 일반적으로 string만 포함된 변수는 대문자로 표기하고
                                       // string을 저장하고 싶을 때 사용 - 일종의 관습

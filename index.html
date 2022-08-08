@@ -4,17 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Momentum App</title>
 </head>
 <body>
-  <form class="hidden" id="login-form">  <!--input이 유효성검사 받기 위해서는 form 태그 안에 있어야 한다.-->
+  <form class="hidden" id="login-form">     <!--input이 유효성검사 받기 위해서는 form 태그 안에 있어야 한다.-->
     <input required maxlength="15" type="text" placeholder="what is your name?" />
-    <!-- input안에 있는 button을 누르거나 type이 submit인 input을 클릭하면 from이 submit이 된다. -->
-    <button>Log In</button>
-    <!-- <a href="https://nomadcoders.co">Go to course</a> -->
+    <button>Log In</button>   <!-- input안에 있는 button을 누르거나 type이 submit인 input을 클릭하면 form이 submit이 된다. -->
   </form>
-  <h1 id="greeting" class="hidden"></h1>
-  <script src="app.js"></script>
+
+  <h2 id="clock">00:00:00</h2>
+  <h1 class="hidden" id="greeting"></h1>
+
+  <script src="js/greetings.js"></script>
+  <script src="js/clock.js"></script>
 </body>
 </html>
