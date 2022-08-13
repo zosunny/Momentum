@@ -6,4 +6,6 @@ const bgImage = document.createElement("img");  //js에서 html에 img태그 pus
 
 bgImage.src = `img/${chosenImage}`;
 
+bgImage.id = "bgImg";
+
 document.body.appendChild(bgImage);   //appenChild()는 body에 html을 추가함.
