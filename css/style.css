@@ -10,5 +10,6 @@
 
 #clock {
   position: relative;
-  left: 50vw;
+  /* left: 50vw; */
+  left: 100%;
 }
