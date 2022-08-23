@@ -11,30 +11,32 @@
   <div class="bgCover"></div>
   <h2 id="clock">00:00:00</h2>  <!-- 시간 -->
 
+  <div class="Container">
+    <form class="hidden" id="login-form">     <!--input이 유효성검사 받기 위해서는 form 태그 안에 있어야 한다.-->
+      <input required maxlength="15" type="text" placeholder="what is your name?" />
+      <button>Log In</button>   <!-- input안에 있는 button을 누르거나 type이 submit인 input을 클릭하면 form이 submit이 된다. -->
+    </form>
 
-  <form class="hidden" id="login-form">     <!--input이 유효성검사 받기 위해서는 form 태그 안에 있어야 한다.-->
-    <input required maxlength="15" type="text" placeholder="what is your name?" />
-    <button>Log In</button>   <!-- input안에 있는 button을 누르거나 type이 submit인 input을 클릭하면 form이 submit이 된다. -->
-  </form>
-
-  <h1 class="hidden" id="greeting"></h1>
-
-
-  <form id="todo-form">
-    <input type="text" placeholder="Write a To Do and Press Enter" required />
-  </form>
-
-  <ul id="todo-list"></ul>    <!-- 투두리스트 -->
-
-  <div id="quote">            <!-- 명언 -->
-    <span></span>
-    <span></span>
+    <h1 class="hidden" id="greeting"></h1>
   </div>
 
-  <div id="weather">      <!-- 닐씨 -->
-    <span></span>
-    <span></span>
-  </div>
+    <form id="todo-form">
+      <input type="text" placeholder="Write a To Do and Press Enter" required />
+    </form>
+
+    <ul id="todo-list"></ul>    <!-- 투두리스트 -->
+
+    <div id="quote">            <!-- 명언 -->
+      <span></span>
+      <span></span>
+    </div>
+
+    <div id="weather">      <!-- 닐씨 -->
+      <span></span>
+      <span></span>
+    </div>
+
+  
 
   <script src="js/greetings.js"></script>   <!-- js 임포트 -->
   <script src="js/clock.js"></script>       <!-- js 임포트 -->
