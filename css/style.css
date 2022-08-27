@@ -86,9 +86,13 @@ img {
   color: white;
 }
 
+#quote span:nth-child(2) {
+  color: white;
+}
+
 /* todo */
 #todo-form input {
-  width:300px;
+  width:250px;
   height: 30px;
   font-size: 20px;
   text-align: center;
@@ -97,4 +101,9 @@ img {
   border-bottom: 1.5px solid white;   /* 밑줄만 생성 */
   background: transparent;              /* 배경 투명하게 */
   outline: none;                        /* 클릭시 생기는 외곽선 삭제 */
+}
+
+#todo-form input::placeholder {
+  font-size: 15px;
+  color: white;
 }
