@@ -28,9 +28,12 @@ img {
 
 /* 시계 */
 #clock {
-  font-size: 100px;
-  color: rgb(3, 1, 31);
+  font-size: 120px;
+  margin-top: 200px;
+  margin-bottom: 20px;
+  color: rgb(12, 10, 41);
   text-align: center;
+  text-shadow: 1px 1px 1px white;
 }
 
 /* center Container */
@@ -45,9 +48,9 @@ img {
 
 /* 로그인 input */
 #login-form input {
-  width:150px;
+  width:200px;
   height: 30px;
-  margin: 20px;
+  margin: 10px;
   font-size: 20px;
   text-align: center;
   color: aliceblue;
@@ -58,7 +61,7 @@ img {
 }
 
 #login-form input::placeholder {
-  font-size: 15px;
+  font-size: 20px;
   color: white;
 }
 
@@ -71,6 +74,7 @@ img {
   border: 0;
   border-radius: 5px;
   box-sizing: border-box;
+  box-shadow: 1px 1px 1px whitesmoke;
   cursor: pointer;
 }
 
@@ -84,22 +88,9 @@ img {
   transition: .2s;
 }
 
-/* 명언 */
-#quote {
-  margin: 20px;
-}
-
-#quote span:nth-child(1) {
-  color: white;
-}
-
-#quote span:nth-child(2) {
-  color: white;
-}
-
 /* todo */
 #todo-form input {
-  width:250px;
+  width:300px;
   height: 30px;
   margin: 20px;
   font-size: 20px;
@@ -112,6 +103,19 @@ img {
 }
 
 #todo-form input::placeholder {
-  font-size: 15px;
+  font-size: 17px;
+  color: white;
+}
+
+/* 명언 */
+#quote {
+  margin: 20px;
+}
+
+#quote span:nth-child(1) {
+  color: white;
+}
+
+#quote span:nth-child(2) {
   color: white;
 }
