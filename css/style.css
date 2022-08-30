@@ -28,8 +28,8 @@ img {
 
 /* 시계 */
 #clock {
-  font-size: 120px;
-  margin-top: 200px;
+  font-size: 130px;
+  margin-top: 180px;
   margin-bottom: 20px;
   color: rgb(106, 174, 146);
   text-align: center;
@@ -109,9 +109,8 @@ img {
 
 /* 명언 */
 #quote {
-  position: absolute;
-  bottom: 20px;
-
+  position: relative;
+  top: 230px;
 }
 
 #quote span:nth-child(1) {
