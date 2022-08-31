@@ -46,6 +46,10 @@ img {
   display: none;
 }
 
+h1 {
+  color: aquamarine;
+}
+
 /* 로그인 input */
 #login-form input {
   width:200px;
@@ -88,10 +92,6 @@ img {
   transition: .2s;
 }
 
-h1 {
-  color: aquamarine;
-}
-
 /* todo */
 #todo-form input {
   width:300px;
@@ -109,6 +109,17 @@ h1 {
 #todo-form input::placeholder {
   font-size: 17px;
   color: white;
+}
+
+ul {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  color: purple;
+}
+
+li::marker {
+  color: plum;
 }
 
 /* 명언 */
