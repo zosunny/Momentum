@@ -88,6 +88,10 @@ img {
   transition: .2s;
 }
 
+h1 {
+  color: aquamarine;
+}
+
 /* todo */
 #todo-form input {
   width:300px;
