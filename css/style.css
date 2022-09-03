@@ -122,6 +122,12 @@ li::marker {
   color:rgb(225, 200, 158);
 }
 
+#todo-list button {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
 /* 명언 */
 #quote {
   position: absolute;
