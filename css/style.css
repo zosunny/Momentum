@@ -115,17 +115,18 @@ ul {
   display: table;
   margin-left: auto;
   margin-right: auto;
-  color: purple;
+  color: wheat;
 }
 
 li::marker {
-  color: plum;
+  color:rgb(225, 200, 158);
 }
 
 /* 명언 */
 #quote {
-  position: relative;
-  top: 230px;
+  position: absolute;
+  width: auto;
+  bottom: 50px;
 }
 
 #quote span:nth-child(1) {
