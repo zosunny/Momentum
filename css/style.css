@@ -31,7 +31,7 @@ img {
   font-size: 130px;
   margin-top: 180px;
   margin-bottom: 20px;
-  color: rgb(106, 174, 146);
+  color: rgb(189, 188, 122);
   text-align: center;
   text-shadow: 2px 2px 2px white;
 }
@@ -118,6 +118,11 @@ ul {
   color: wheat;
 }
 
+li {
+  font-size: 20px;
+  text-align: left;
+}
+
 li::marker {
   color:rgb(225, 200, 158);
 }
@@ -131,8 +136,9 @@ li::marker {
 /* 명언 */
 #quote {
   position: absolute;
-  width: auto;
-  bottom: 50px;
+  top: 95%;             /* 중앙정렬 - 왼쪽위 꼭지점 기준*/
+  left: 50%;            /* 중앙정렬 - 왼쪽위 꼭지점 기준*/
+  transform: translate(-50%, -50%);   /* div 사이즈만큼 반대로 이동 - 기준을 중점으로 만들어줌*/
 }
 
 #quote span:nth-child(1) {
