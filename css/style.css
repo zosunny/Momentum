@@ -66,19 +66,19 @@ h1 {
 
 #login-form input::placeholder {
   font-size: 20px;
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* 로그인 버튼 */
 .button-style {
   width: 60px;
   height: 30px;
-  background-color: darkseagreen;
+  background-color: rgb(171, 232, 211);
   margin-left: 10px;
   border: 0;
   border-radius: 5px;
   box-sizing: border-box;
-  box-shadow: 1px 1px 1px whitesmoke;
+  box-shadow: 1px 1px 1px rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -87,7 +87,7 @@ h1 {
 }
 
 .button-style:hover {
-  background-color: olivedrab;
+  background-color: rgb(121, 190, 160);
   box-shadow: 0 2px 4px rgba(150, 150, 150, 0.7);
   transition: .2s;
 }
@@ -108,14 +108,14 @@ h1 {
 
 #todo-form input::placeholder {
   font-size: 17px;
-  color: rgba(145, 144, 147, 0.5);
+  color: rgba(158, 157, 159, 0.7);
 }
 
 ul {
   display: table;
   margin-left: auto;
   margin-right: auto;
-  color: wheat;
+  color: rgb(223, 245, 242);
 }
 
 li {
@@ -124,7 +124,7 @@ li {
 }
 
 li::marker {
-  color:rgb(225, 200, 158);
+  color:rgb(223, 245, 242);
 }
 
 #todo-list button {
@@ -142,9 +142,11 @@ li::marker {
 }
 
 #quote span:nth-child(1) {
-  color: rgb(214, 210, 210);
+  color: rgb(201, 225, 250);
+  text-shadow: .5px .5px .5px rgb(212, 237, 249);
 }
 
 #quote span:nth-child(2) {
-  color: rgb(214, 210, 210);
+  color: rgb(187, 186, 186);
+  text-shadow: .5px .5px .5px white;
 }
