@@ -31,7 +31,7 @@ img {
   font-size: 130px;
   margin-top: 180px;
   margin-bottom: 20px;
-  color: rgba(150, 103, 245, 0.831);
+  color: rgba(103, 219, 245, 0.831);
   text-align: center;
   text-shadow: 2px 2px 2px white;
 }
@@ -47,7 +47,7 @@ img {
 }
 
 h1 {
-  color: rgb(249, 108, 198);
+  color: rgb(171, 232, 211);
 }
 
 /* 로그인 input */
@@ -93,16 +93,6 @@ h1 {
 }
 
 /* todo */
-#todo-box {
-  position: absolute;
-  width: 350px;
-  height: 300px;
-  border: 2px solid white;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 #todo-form input {
   width:250px;
   height: 30px;
@@ -118,7 +108,7 @@ h1 {
 
 #todo-form input::placeholder {
   font-size: 17px;
-  color: white;
+  color: rgba(145, 144, 147, 0.5);
 }
 
 ul {
@@ -152,9 +142,9 @@ li::marker {
 }
 
 #quote span:nth-child(1) {
-  color: white;
+  color: rgb(214, 210, 210);
 }
 
 #quote span:nth-child(2) {
-  color: white;
+  color: rgb(214, 210, 210);
 }
